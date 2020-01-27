@@ -48,12 +48,10 @@ namespace MapLoader
             if (info.cover != null)
             {
                 _levelCover.sprite = Sprite.Create(info.cover, new Rect(0, 0, info.cover.width, info.cover.height), new Vector2(0.5f, 0.5f));
-                //Console.WriteLine($"Get cover! {info.cover.width}x{info.cover.height}");
             }
             else
             {
                 _levelCover.sprite = null;
-                //Console.WriteLine($"NO Get cover!");
             }
          }
     }

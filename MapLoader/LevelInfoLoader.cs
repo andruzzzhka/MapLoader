@@ -149,7 +149,6 @@ namespace MapLoader
                                 Texture2D levelCover = new Texture2D(1, 1);
                                 levelCover.LoadImage(coverBuffer);
                                 info.cover = levelCover;
-                                //Console.WriteLine($"Set cover! {levelCover.width}x{levelCover.height}");
                             }
                         });
                     }
